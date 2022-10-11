@@ -22,7 +22,8 @@
 		"cloudfront:build:deploy:nc": "npm run client:build:deploy:nc && npm run cloudfront:invalidateCache",
 		"cloudfront:update:build:deploy": "npm run cloudfront:setup && npm run cloudfront:build:deploy",
 		"cloudfront:update:build:deploy:nc": "npm run cloudfront:setup && npm run cloudfront:build:deploy:nc",
-		"release": "standard-version"
+		"release": "standard-version",
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"@mdi/font": "^5.9.55",
@@ -61,7 +62,7 @@
 		"eslint-plugin-jsonc": "^2.4.0",
 		"eslint-plugin-prettier": "^3.3.1",
 		"eslint-plugin-vue": "^6.2.2",
-		"husky": "^8.0.1",
+		"husky": "^8.0.0",
 		"prettier": "^2.2.1",
 		"sass": "~1.32.6",
 		"sass-loader": "^8.0.2",
