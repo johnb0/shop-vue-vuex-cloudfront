@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/johnb0/shop-vue-vuex-cloudfront/compare/v0.1.4...v0.1.5) (2022-10-11)
+
+
+### Features
+
+* standard-version ([c641c8a](https://github.com/johnb0/shop-vue-vuex-cloudfront/commit/c641c8a10470650ab39a37eb40f4c8ac9fe3dee4))
+
 ### 0.1.4 (2022-10-11)
 
 
