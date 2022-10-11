@@ -9,6 +9,7 @@
 		"build:version": "npm version patch && npm run build",
 		"format": "prettier --write --plugin-search-dir=. src/**/*.{ts,vue}",
 		"test:unit": "vue-cli-service test:unit",
+		"test:coverage": "npm run test:unit --coverage",
 		"test:e2e": "vue-cli-service test:e2e",
 		"lint": "vue-cli-service lint",
 		"client:deploy": "sls client deploy --no-config-change --no-policy-change --no-cors-change",
