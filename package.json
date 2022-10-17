@@ -24,7 +24,8 @@
 		"cloudfront:update:build:deploy": "npm run cloudfront:setup && npm run cloudfront:build:deploy",
 		"cloudfront:update:build:deploy:nc": "npm run cloudfront:setup && npm run cloudfront:build:deploy:nc",
 		"release": "standard-version",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"cicd:local": "./local_ci_cd.sh"
 	},
 	"dependencies": {
 		"@mdi/font": "^5.9.55",
